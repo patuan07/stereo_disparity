@@ -44,7 +44,7 @@ class StereoPublisher(Node):
 
         # Camera
         self.bridge = CvBridge()
-        self.cap = cv.VideoCapture("http://172.21.176.1:8080/video", cv.CAP_FFMPEG)
+        self.cap = cv.VideoCapture("[insert camera feed adress]", cv.CAP_FFMPEG)
         if not self.cap.isOpened():
             raise RuntimeError("Cannot open video stream")
 
