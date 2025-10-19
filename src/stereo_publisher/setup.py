@@ -28,7 +28,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'combined_publisher = stereo_publisher.combined_publisher:main'
+            'combined_publisher = stereo_publisher.combined_publisher:main',
+            'get_point = stereo_publisher.get_point:main',
+            'test = stereo_publisher.test:main'
         ],
     },
 )
